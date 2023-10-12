@@ -11,18 +11,25 @@
         background-color: #5ba300;
         color: #cfebb6;
         font-family: 'Verdana';
-        font-size: pt25;
+        font-size: 25pt;
         border: solid #cfebb6;
         justify-content: center;
+        margin: 10%;
+        border-radius: 5pt;
     }
     
     nav{
         display: block;
+        width: 100%;
         justify-content: center;
+        padding-top: 10%;
     }
 
     img{
-        width: 320;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: dashed;
     }
     
     .skip{
@@ -31,7 +38,7 @@
     }
     
     .skip:focus{
-        margin-top: 15px;
+        margin-top: 2px;
         margin-left: 10px;
         padding: 10px;
     }
@@ -43,24 +50,40 @@
     h2{
         color: #029356;
         font-family: 'Verdana';
-        font-size: pt15;
         font-style: oblique;
         text-align: center;
+        margin-bottom: 5%;
     }
     h3{
         font-family: 'Verdana';
-        font-size: pt15;
+        font-size: 15pt;
         font-style: oblique;
         text-align: center;
         border: solid black 2px;
+       
     }
     p{
         font-family: 'Verdana';
-        font-size: pt15;
         font-style: oblique;
-        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 5%;
     
     }
+
+    #p1{
+        border-top: solid;
+        border-left: solid;
+        border-right: solid;
+    }
+
+    #p2{
+        border-bottom: solid;
+        border-left: solid;
+        border-right: solid;
+        margin-bottom: 15%;
+    }    
     
     ul{
         color: #cfebb6;
@@ -70,12 +93,14 @@
         background: moccasin;
         display: flex;
         justify-content: space-around;
+        padding: 3%;
         
     }
     
     ul a{
         color: #029356;
         font-family: Verdana;
+        text-decoration: underline;
     }
     
     ul a:hover{
@@ -87,16 +112,27 @@
         color: #029356;
     }
     
+    ul li{
+        color: #029356;
+    }
+
     .column{
-        display: block;
-        float: left;
-        width: 20%;
-        padding: 5px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 10%;
     }
     
-    
+    figcaption{
+        text-align: center;
+    }
+
     .first{
         display:block;
         align-items: center;
+    }
+
+    #od_vid{
+        justify-content: center;
     }
     }
