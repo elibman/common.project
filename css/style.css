@@ -30,6 +30,7 @@
         margin-left: 10%;
         margin-right: 10%;
         border: dashed;
+        border-radius: 2%;
     }
     
     .skip{
@@ -47,19 +48,39 @@
         color: black;
     }
     
+    .monet{
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     h2{
         color: #029356;
         font-family: 'Verdana';
         font-style: oblique;
+        font-size: 150%;
+        text-decoration: underline;
         text-align: center;
         margin-bottom: 5%;
     }
+    #flower{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     h3{
+        color: #029356;
         font-family: 'Verdana';
         font-size: 15pt;
         font-style: oblique;
         text-align: center;
-        border: solid black 2px;
+        border: solid #029356 2px;
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
        
     }
     p{
@@ -73,12 +94,14 @@
     }
 
     #p1{
+        border-radius: 4%;
         border-top: solid;
         border-left: solid;
         border-right: solid;
     }
 
     #p2{
+        border-radius: 4%;
         border-bottom: solid;
         border-left: solid;
         border-right: solid;
@@ -135,4 +158,9 @@
     #od_vid{
         justify-content: center;
     }
+
+    .yellowstone{
+        margin-top: 25%;
+    }
+
     }
