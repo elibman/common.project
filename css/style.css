@@ -8,7 +8,7 @@
     
     h1{
         display: flex;
-        background-color: #5ba300;
+        background-color: #029356;
         color: #cfebb6;
         font-family: 'Verdana';
         font-size: 25pt;
@@ -56,6 +56,15 @@
         margin-right: 5%;
     }
 
+    .yellowstone{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     h2{
         color: #029356;
         font-family: 'Verdana';
@@ -79,10 +88,18 @@
         border: solid #029356 2px;
         display: flex;
         justify-content: center;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 10%;
        
     }
+
+    video{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: dashed;
+        border-radius: 2%;
+    }
+
     p{
         font-family: 'Verdana';
         font-style: oblique;
@@ -106,19 +123,14 @@
         border-left: solid;
         border-right: solid;
         margin-bottom: 15%;
-    }    
+    }   
     
-    ul{
-        color: #cfebb6;
-        font-family: Verdana;
-        text-align: center;
-        border: solid burlywood;
-        background: moccasin;
-        display: flex;
-        justify-content: space-around;
-        padding: 3%;
-        
+    #p3{
+        border: solid;
+        border-radius: 4%;
+        margin-bottom: 15%;
     }
+    
     
     ul a{
         color: #029356;
@@ -130,11 +142,51 @@
         color: black;
     }
     
+    nav ul{
+        color: #cfebb6;
+        font-family: Verdana;
+        text-align: center;
+        border: solid burlywood;
+        background: moccasin;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3%;
+    }
+
+    div div h3{
+        border: none;
+        margin: 0%;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+    div div{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 5%;
+        border: solid #029356;
+        display: block;
+    }
+
     nav ul li{
         display: inline-block;
         color: #029356;
     }
     
+    div ul {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: block;
+    }
+
+    div ul li{
+        list-style-type: square;
+        
+        
+    }
+
     ul li{
         color: #029356;
     }
@@ -148,19 +200,113 @@
     
     figcaption{
         text-align: center;
+        padding: 7%;
     }
 
-    .first{
-        display:block;
-        align-items: center;
-    }
-
-    #od_vid{
-        justify-content: center;
-    }
-
-    .yellowstone{
+    .Guangzhou{
         margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .sanfran{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .odie{
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .basil{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .bacon{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .bear{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .york{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .jingle{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .zack{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .white_sauce{
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .sushi{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .tomato_basil{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid black 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     }
