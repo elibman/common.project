@@ -158,7 +158,6 @@
         border: none;
         margin: 0%;
         font-weight: bold;
-        margin-bottom: 10%;
     }
     div div{
         width: 80%;
@@ -168,6 +167,8 @@
         border: solid #029356;
         display: block;
     }
+
+
 
     nav ul li{
         display: inline-block;
@@ -192,10 +193,7 @@
     }
 
     .column{
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-top: 10%;
+        border: none;
     }
     
     figcaption{
