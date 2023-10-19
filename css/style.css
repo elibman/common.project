@@ -29,7 +29,8 @@
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-        border: dashed;
+        border: dashed 2pt;
+        border-color: #029356;
         border-radius: 2%;
     }
     
@@ -47,30 +48,13 @@
     .skip:hover{
         color: black;
     }
-    
-    .monet{
-        padding-top: 5%;
-        border: solid black 2pt;
-        padding-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .yellowstone{
-        margin-top: 25%;
-        padding-top: 5%;
-        border: solid black 2pt;
-        padding-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
 
     h2{
+        font-weight: bold;
         color: #029356;
         font-family: 'Verdana';
         font-style: oblique;
         font-size: 150%;
-        text-decoration: underline;
         text-align: center;
         margin-bottom: 5%;
     }
@@ -97,6 +81,7 @@
         margin-left: 10%;
         margin-right: 10%;
         border: dashed;
+        border-color: #029356;
         border-radius: 2%;
     }
 
@@ -112,6 +97,7 @@
 
     #p1{
         border-radius: 4%;
+        color:#029356;
         border-top: solid;
         border-left: solid;
         border-right: solid;
@@ -119,6 +105,7 @@
 
     #p2{
         border-radius: 4%;
+        color:#029356;
         border-bottom: solid;
         border-left: solid;
         border-right: solid;
@@ -126,7 +113,9 @@
     }   
     
     #p3{
+        margin-top: 5%;
         border: solid;
+        color:#029356;
         border-radius: 4%;
         margin-bottom: 15%;
     }
@@ -143,13 +132,12 @@
     }
     
     nav ul{
-        color: #cfebb6;
         font-family: Verdana;
         text-align: center;
         border: solid burlywood;
         background: moccasin;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         padding: 3%;
     }
@@ -165,6 +153,7 @@
         margin-right: 10%;
         padding-bottom: 5%;
         border: solid #029356;
+        border-radius: 5pt;
         display: block;
     }
 
@@ -177,14 +166,15 @@
     
     div ul {
         width: 80%;
-        margin-left: 10%;
+        margin-left: 15%;
         margin-right: 10%;
         display: block;
+        padding-top: 5%;
     }
 
     div ul li{
-        list-style-type: square;
-        
+        list-style-type: disc;
+        color: #029356;
         
     }
 
@@ -198,13 +188,63 @@
     
     figcaption{
         text-align: center;
+        color: #029356;
         padding: 7%;
+    }
+
+    span{
+        display: flex;
+        color:#029356;
+        justify-content: center;
+    }
+
+    div img{
+        margin-top: 5%;
+    }
+
+    ol{
+        list-style-type: decimal;
+        color: #029356;
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+
+    .source{
+        border: none;
+        display: flex;
+        justify-content: center;
+        padding-bottom: initial;
+    }
+
+    #bonapp{
+        text-decoration: underline;
+    }
+
+    #bonapp:hover{
+        color:black;
+    }
+
+    .monet{
+        padding-top: 5%;
+        border: solid burlywood 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .yellowstone{
+        margin-top: 25%;
+        padding-top: 5%;
+        border: solid burlywood 2pt;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .Guangzhou{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -213,7 +253,7 @@
     .sanfran{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -221,7 +261,7 @@
 
     .odie{
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -230,7 +270,7 @@
     .basil{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -239,7 +279,7 @@
     .bacon{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -248,7 +288,7 @@
     .bear{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -257,7 +297,7 @@
     .york{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -266,7 +306,7 @@
     .jingle{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -275,7 +315,7 @@
     .zack{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -283,7 +323,7 @@
 
     .white_sauce{
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -292,7 +332,7 @@
     .sushi{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -301,7 +341,7 @@
     .tomato_basil{
         margin-top: 25%;
         padding-top: 5%;
-        border: solid black 2pt;
+        border: solid burlywood 2pt;
         padding-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
