@@ -121,8 +121,11 @@
     }
     
     #current{
-        color: black;
-        background-color: #029356;
+        /* color: black; */
+        /* background-color: #029356; */
+        border: solid;
+        border-radius: 5pt;
+        padding: 10%;
     }
 /* 
     ul a {
@@ -147,10 +150,10 @@
         color: #029356;
         font-family: Verdana;
         text-decoration: underline;
-        border: solid;
+        /* border: solid;
         padding: 6pt;
-        background-color: #cfebb6;
-        border-radius: 4pt;
+        background-color: #cfebb6; */
+        /* border-radius: 4pt; */
     }
     
     ul a:hover{
