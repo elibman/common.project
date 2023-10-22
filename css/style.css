@@ -129,38 +129,27 @@
     }
 
     @media (prefers-reduced-motion: reduce) {
-        #gif {
+        .gif {
           /* Stop the animation */
           animation: none;
-          
-          /* Provide alternate styling */
-          background-color: #47ACFA;
-          border: none;
-          border-radius: 0;
-          box-shadow: none;
-          height: 30vh;
-          width: 30vh;
+        }
+
+        #sangif{
+            background-image: ../images/MonetsGardenGif.jpg;
+        }
+
+        #monetgif{
+            background-image: ;
+        }
+
+        #yellowstonegif{
+            background-image: ;
+        }
+
+        #guangtower{
+            background-image: ;
         }
       }
-
-/* 
-    ul a {
-        -webkit-border-radius: 10%;
-        -moz-border-radius: 28;
-        border-radius: 28px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #029356;
-        font-size: 14px;
-        background: #f5e7c7;
-        padding: 10px 20px 10px 20px;
-        border: solid #e8cb94 2px;
-        text-decoration: none;
-      }
-      
-    ul a:hover {
-        background: #c5ccd1;
-        text-decoration: none;
-    } */
 
     ul a{
         color: #029356;
