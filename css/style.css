@@ -237,6 +237,14 @@
         margin-top: 5%;
     }
 
+    #grid{
+        display: grid;
+        grid-template-columns: 60% 60%;
+        align-items: stretch;
+        align-content: center;
+        justify-content: center;
+    }
+
     ol{
         list-style-type: decimal;
         color: #029356;
