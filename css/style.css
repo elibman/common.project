@@ -127,6 +127,22 @@
         border-radius: 5pt;
         padding: 10%;
     }
+
+    @media (prefers-reduced-motion: reduce) {
+        #gif {
+          /* Stop the animation */
+          animation: none;
+          
+          /* Provide alternate styling */
+          background-color: #47ACFA;
+          border: none;
+          border-radius: 0;
+          box-shadow: none;
+          height: 30vh;
+          width: 30vh;
+        }
+      }
+
 /* 
     ul a {
         -webkit-border-radius: 10%;
