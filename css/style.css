@@ -131,7 +131,7 @@
     @media (prefers-reduced-motion: reduce) {
         .gif {
           /* Stop the animation */
-          animation: none;
+          display: none;
         }
 
         #monetgif{
@@ -239,7 +239,7 @@
 
     #grid{
         display: grid;
-        grid-template-columns: 60% 60%;
+        grid-template-columns: 65% 65%;
         align-items: stretch;
         align-content: center;
         justify-content: center;
