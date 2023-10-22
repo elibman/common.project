@@ -134,12 +134,8 @@
           animation: none;
         }
 
-        #sangif{
-            background-image: ../images/MonetsGardenGif.jpg;
-        }
-
         #monetgif{
-            background-image: ;
+            background-image: url('../images/MonetsGardenGif.jpg');
         }
 
         #yellowstonegif{
@@ -147,6 +143,10 @@
         }
 
         #guangtower{
+            background-image: ;
+        }
+
+        #sangif{
             background-image: ;
         }
       }
