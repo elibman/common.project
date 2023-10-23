@@ -97,7 +97,7 @@
     
     }
 
-    #p1{
+    .p1{
         background-color: beige;
         border-radius: 4pt;
         color:#029356;
@@ -107,7 +107,7 @@
         margin-top: 5%;
     }
 
-    #p2{
+    .p2{
         background-color: beige;
         border-radius: 4pt;
         color:#029356;
@@ -117,7 +117,7 @@
         margin-bottom: 15%;
     }   
     
-    #p3{
+    .p3{
         background-color: beige;
         margin-top: 5%;
         border: solid;
@@ -126,7 +126,7 @@
         margin-bottom: 10%;
     }
     
-    #current{
+    .current{
         /* color: black; */
         /* background-color: #029356; */
         border: solid;
@@ -201,8 +201,6 @@
         display: block;
     }
 
-
-
     nav ul li{
         display: inline-block;
         color: #029356;
@@ -256,7 +254,7 @@
         margin-top: 5%;
     }
 
-    #grid{
+    .grid{
         display: grid;
         grid-template-columns: 65% 65%;
         align-items: stretch;
@@ -296,7 +294,7 @@
           
         }
 
-        #grid{
+        .grid{
             display: grid;
             grid-template-columns: 100%;
         }
