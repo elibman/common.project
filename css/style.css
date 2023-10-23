@@ -128,28 +128,7 @@
         padding: 10%;
     }
 
-    @media (prefers-reduced-motion: reduce) {
-        .gif {
-          /* Stop the animation */
-          display: none;
-        }
-
-        #monetgif{
-            background-image: url('../images/MonetsGardenGif.jpg');
-        }
-
-        #yellowstonegif{
-            background-image: ;
-        }
-
-        #guangtower{
-            background-image: ;
-        }
-
-        #sangif{
-            background-image: ;
-        }
-      }
+    
 
     ul a{
         color: #029356;
@@ -266,6 +245,19 @@
     #bonapp:hover{
         color:black;
     }
+
+    @media (prefers-reduced-motion: reduce) {
+        .gif {
+          /* Stop the animation */
+          display: none;
+          
+        }
+
+        #grid{
+            display: grid;
+            grid-template-columns: 100%;
+        }
+      }
 
     .monet{
         border-radius: 4pt;
