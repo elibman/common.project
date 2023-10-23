@@ -4,6 +4,7 @@
     
     body{
         background-color:beige;
+        font-family: verdana;
     }
     
     h1{
@@ -53,7 +54,6 @@
         font-weight: bold;
         color: #029356;
         font-family: 'Verdana';
-        font-style: oblique;
         font-size: 150%;
         text-align: center;
         margin-bottom: 5%;
@@ -64,15 +64,16 @@
     }
 
     h3{
+        background-color: beige;
         color: #029356;
         font-family: 'Verdana';
         font-size: 15pt;
-        font-style: oblique;
         text-align: center;
         border: solid #029356 2px;
         display: flex;
         justify-content: center;
         margin: 10%;
+        border-radius: 4pt;
        
     }
 
@@ -83,6 +84,7 @@
         border: dashed 2pt;
         border-color: #029356;
         border-radius: 2%;
+        margin-top: 5%;
     }
 
     p{
@@ -96,14 +98,17 @@
     }
 
     #p1{
+        background-color: beige;
         border-radius: 4pt;
         color:#029356;
         border-top: solid;
         border-left: solid;
         border-right: solid;
+        margin-top: 5%;
     }
 
     #p2{
+        background-color: beige;
         border-radius: 4pt;
         color:#029356;
         border-bottom: solid;
@@ -113,11 +118,12 @@
     }   
     
     #p3{
+        background-color: beige;
         margin-top: 5%;
         border: solid;
         color:#029356;
         border-radius: 4pt;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
     }
     
     #current{
@@ -126,11 +132,13 @@
         border: solid;
         border-radius: 5pt;
         padding: 10%;
+        background-color: beige;
     }
 
     
 
     ul a{
+        background-color: moccasin;
         color: #029356;
         font-family: Verdana;
         text-decoration: underline;
@@ -155,17 +163,37 @@
         padding: 5%;
     }
 
-    div div h3{
-        border: none;
-        margin: 0%;
-        font-weight: bold;
+    h4{
+        background: beige;
+        color: #029356;
+        font-family: 'Verdana';
+        font-size: 15pt;
+        font-style: oblique;
+        margin-bottom: 5%;
+        text-align: center;
+        border: solid #029356 2px;
+        display: flex;
+        justify-content: center;
+        margin: 10%;
+        border-radius: 4pt;
     }
+
+    div div h4{
+        border: none;
+        margin: 5%;
+        font-weight: bold;
+        background-color: moccasin;
+        font-family: verdana;
+    }
+
+
     div div{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-        padding-bottom: 5%;
-        border: solid #029356;
+        /* margin-top: 5%;
+        padding-bottom: 5%; */
+        /* border: solid #029356; */
         border-radius: 5pt;
         display: block;
     }
@@ -175,24 +203,33 @@
     nav ul li{
         display: inline-block;
         color: #029356;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
 
     }
     
     div ul {
+        /* background-color: beige; */
         width: 80%;
         margin-left: 15%;
         margin-right: 10%;
         display: block;
-        padding-top: 5%;
     }
 
     div ul li{
+        font-style: oblique;
         list-style-type: disc;
         color: #029356;
         
     }
 
+    #flower{
+        padding: none;
+        margin: none;
+    }
+
     ul li{
+        /* background-color: beige; */
         color: #029356;
     }
 
@@ -242,6 +279,9 @@
         text-decoration: underline;
     }
 
+    main div{
+        background-color: moccasin;
+    }
     #bonapp:hover{
         color:black;
     }
