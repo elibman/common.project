@@ -8,15 +8,17 @@
     <title>Recipes</title>
 </head>
 <body>
+    <div class="container">
     <a class = 'skip' href = "">Skip to Main Content</a>
-    <nav>
-        <ul>
-            <li><a href="index.html">Travel</a></li>
-            <li><a href="pets.html">Pets</a></li>
-            <li><a class="current" href="recipes.html">Recipes</a></li>
+    <nav class="container-content">
+        <ul class="content">
+            <li class="title-link"><a href="index.html">Travel</a></li>
+            <li class="title-link"><a href="pets.html">Pets</a></li>
+            <li class="title-link"><a class="current" href="recipes.html">Recipes</a></li>
         </ul>
     </nav>
     <header><h1>Recipes</h1></header>
+    </div>
     <main>
         <div class="white_sauce">
             <!--rec 1-->
@@ -27,8 +29,10 @@
 
             <img id= "pasta" src = "images/White_Sauce_Pasta.JPG" width = "400" alt = "final white sauce pasta dish">
             <p class="p3">White sauce pasta is a creamy and savory dish that can be enjoyed for either lunch or dinner. Inspired by a fusion of Italian and French cuisine, the rough texture of rigatoni pasta allows for heavier sauces to be picked up, including the flavor profile of this delicious sauce. This union of two cultures allows for the perfect balance between each component of the recipe, creating a fulfilling entree that every individual can enjoy.</p>
+            
+            <!-- <div> -->
             <h3>Recipe Ingredients</h3>
-            <ul>
+            <ul class="ingredients">
                 <li>Olive Oil</li> 
                 <li>Butter</li> 
                 <li>Diced Onion</li> 
@@ -47,7 +51,8 @@
                 <li>Bay Leaves</li>
                 <li>Parsley Leaves</li>
             </ul>
-
+            <!-- </div>
+            <div> -->
             <h3>Recipe Steps</h3>
             <ol>
                 <li>Bring a pot of water to a boil. Once the water begins to bubble, add in the pasta, salt, and a drizzle of oil.</li>
@@ -59,11 +64,17 @@
                 <li>Throw in pasta and mix until the pasta is coated with the creamy sauce.</li> 
                 <li>Garnish with parsley leaves, and enjoy.</li>
             </ol>
+            <!-- </div>
+            </div> -->
+            <!-- </div> -->
+            <div>
             <h3>Additional Food Images</h3>
+            <div class="image-grid2">
             <img src = "images/BoiledRigatoniPasta.jpg" width = "200" alt = "Boiled Rigatoni Pasta in a Strainer">
             <img src = "images/SauteedOnions.jpeg" width = "200" alt = "Sauteed Onions in a Pan">
             <img src = "images/WhiteSauce.jpeg" width = "200" alt = "White Sauce in a Pan">
-
+            </div>
+            </div>
         </div>
         <div class="sushi">
             <!--rec 2-->
@@ -74,9 +85,9 @@
 
             <img src = "images/sushiBake.jpeg" width = "400" alt = "">
             <p class="p3">Do you want easy, quick way to enjoy sushi without having to do all of the work? Try to make our sushi bake, which takes 10 minutes to assemble and 20 minutes to bake in the oven. Our recipe feeds 8 people.</p>
-
+            <!-- <div class="recipe-steps"> -->
             <h3>Recipe Ingredients</h3>
-            <ul>
+            <ul class="ingredients">
                 <li>1 avocado</li>
                 <li>1/2 cup soon sauce</li>
                 <li>2 cups of rice</li>
@@ -102,13 +113,14 @@
                 <li>Bake for 20 minutes</li>
                 <li>Enjoy!</li>
             </ol>
-            
+            <!-- </div> -->
 
             <h3>Additional Food images</h3>
+            <div class="image-grid2">
             <img src="images/rice.jpeg" width = "200" alt = "Make your rice and mix the rice vinegar into it">
             <img src="images/avocado.jpeg" width = "200" alt = "Sliced avocado from step 7">
             <img src="images/imitation_crab.jpg" width = "200" alt = "Imitation crab for crab salad">
-             
+            </div>
             <!-- Ethan Tai and Joshua Vijayasegar -->
         </div>
         <div class="tomato_basil">
@@ -126,8 +138,10 @@
             <img src="images/basically-no-cook-tomato-sauce.jpg" width = "400" alt = "">
             <p class="p3">This recipe is a fantastic way to step up your pasta game without taking too much more of your time. It tastes way better than basic pasta with jarred sauce! I originally found this when my sister made it, and got the recipe off of Bon Appetit’s website. PS avoid using the shaker parmesan – I used that the first time I made this and it drew down the quality of the dish.</p>
 
+            <!-- <div class="recipe-steps">
+            <div> -->
             <h3>Recipe Ingredients</h3>
-            <ul>
+            <ul class="ingredients">
                 <li>pasta</li>
                 <li>tomatoes (any larger than cherry)</li>
                 <li>basil</li>
@@ -136,7 +150,8 @@
                 <li>crushed red pepper</li>
                 <li>finely grated block of parmesan</li>
             </ul>
-
+            <!-- </div>
+            <div> -->
             <h3>Recipe Steps</h3>
             <ol>
                 <li>cut tomatoes along equator</li>
@@ -149,14 +164,37 @@
                 <li>cook pasta</li>
                 <li>toss marinade with cooked pasta and serve topped with remaining parmesan</li>
             </ol>
-
+            <!-- </div>
+            </div> -->
             <h3>Additional Food images</h3>
+            <div class="image-grid2">
             <img src="images/tomato.jpg" width = "200" alt = "A juicy tomato with water droplets.">
             <img src="images/basil.jpg" width = "200" alt = "A few leaves of basil">
             <img src="images/fettuccine.jpg" width = "200" alt = "Some fettuccine in a pot of boiling water">
-             
+            </div>
             <!-- Leif Doxey-Van Heest -->
         </div>
     </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+    <script>
+    let mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 800px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+</script>
 </body>
 </html>

@@ -11,15 +11,17 @@
     <title>Travel</title>
 </head>
 <body>
+    <div class="container">
     <a class = 'skip' href = "">Skip to Main Content</a>
-    <nav>
-        <ul>
-            <li><a class="current" href="index.html">Travel</a></li>
-            <li><a href="pets.html">Pets</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
+    <nav class="container-content">
+        <ul class="content">
+            <li class="title-link"><a class="current" href="index.html">Travel</a></li>
+            <li class="title-link"><a href="pets.html">Pets</a></li>
+            <li class="title-link"><a href="recipes.html">Recipes</a></li>
         </ul>
     </nav>
     <header><h1>Travel</h1></header>
+    </div>
     <main>
         <!--trav 1-->
         <div class="monet">
@@ -35,6 +37,7 @@
             <!-- </div> -->
             
             <h3>Photo Gallery</h3>
+            <div class="image-grid">
             <figure class="column">
                 <img src="images/GardenHouse.jpeg" alt="Monet’s house from outside in the garden" width="200">
                 <figcaption>Monet’s Garden includes the house in which he resided during his time exploring his artistic life.</figcaption>
@@ -56,6 +59,7 @@
                 <img src="images/MonetsGardenFlower.jpg" alt="An up-close photo of a beautiful flower in Monet’s Garden" width="200">
            	    <figcaption>Monet’s Garden is filled with unique, vibrant, and beautiful flowers and plants.</figcaption>
             </figure>
+            </div>
             <!--Emily Libman-->        
         </div>
         <div class="yellowstone">
@@ -70,6 +74,7 @@
             <p class="p2">These unique opportunities also bring out a lot of bad decisions among the tourists.  Every year visitors injure themselves or the wildlife by getting close to the animals.  You  can see examples of people making bad decisions by visiting <a href ="https://www.facebook.com/groups/yellowstonenationalparkinvasionoftheidiots/">Yellowstone National Park: Invasion of the Idiots</a>, <a href="https://www.instagram.com/touronsofyellowstone/?hl=en">Tourons of Yellowstone</a>, or  <a href="https://cowboystatedaily.com/">Cowboy State Daily</a>.</p>
 
             <h3>Photo Gallery</h3>
+            <div class="image-grid">
             <figure>
                 <img src="images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine">
                 <figcaption>Mammoth Hot Springs has a number of actively forming Travertine terraces.</figcaption>
@@ -101,6 +106,7 @@
                 
                 <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
             </figure>
+            </div>
 
             <!-- Colleen van Lent -->
         </div>
@@ -116,6 +122,7 @@
             <p class="p2">Guangzhou is celebrated for its many handicraft products, including ivory carvings, jade objects, embroideries, fans, porcelain, and paper umbrellas. These, along with the citys famous cuisine and its many museums and other cultural attractions, have made Guangzhou one of China&#39;s principal tourist destinations.</p>
 
             <h3>Photo Gallery</h3>
+            <div class="image-grid">
             <figure>
                 <img src="images/guangzhou_shangxiajiu_pedestrian_street.jpg" width = "200" alt="Image of pedestrian street full of glowing signs and stores.">
                 <figcaption>Shangxiajiu pedestrian street in Guangzhou, a bustling street full of places to eat and shop!</figcaption>
@@ -140,7 +147,7 @@
                 <img src="images/guangzhou_sunyatsen.jpg" width = "200" alt="Image of Memorial hall temple">
                 <figcaption>Built in the traditional Lingnan architectural style, the temple of Sun Yat-sen commemorates the life of Dr. Sun Yat-sen, a political theorist and leader of modern China. </figcaption>
             </figure>
-
+            </div>
             <!-- Bianca Hiew -->
         </div>
         <div class="sanfran">
@@ -155,6 +162,7 @@
             <p class="p2">San Francisco has many trails and parks where you can hike or enjoy a walk. The Presidio is a large park with hiking trails and paths surrounding the Golden Gate Bridge area. One can see picturesque views of the bay and its wildlife.</p>
 
             <h3>Photo Gallery</h3>
+            <div class="image-grid">
             <figure>
                 <img src="images/San_Francisco_Alcatraz.jpeg" width = "200" alt="Image of the prison on the island">
                 <figcaption>Alcatraz Island</figcaption>
@@ -179,7 +187,29 @@
                 <img src="images/San_Francisco_palace.jpeg" width = "200" alt="Image of the Palace of Fine Arts in San Francisco. Image of a large building surrounded by water and a park.">
                 <figcaption>The Palace of Fine Arts in San Francisco</figcaption>
             </figure>
+            </div>
         </div>
     </main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+    <script>
+    let mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 800px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+</script>
 </body>
 </html>
