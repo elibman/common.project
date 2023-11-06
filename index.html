@@ -39,29 +39,60 @@
             <h3>Photo Gallery</h3>
             <div class="image-grid">
             <figure class="column">
-                <img src="images/GardenHouse.jpeg" alt="Monet’s house from outside in the garden" width="200">
+                <img src="images/GardenHouse.jpeg" alt="Monet’s house from outside in the garden" width="200" onclick="openModal('myModal1');currentSlide(1)">
                 <figcaption>Monet’s Garden includes the house in which he resided during his time exploring his artistic life.</figcaption>
             </figure>
             <figure class="column">
-                <img src="images/MonetsArt.jpeg" alt="A wall inside Monet’s house of various pieces of his impressionist artwork" width="200">
+                <img src="images/MonetsArt.jpeg" alt="A wall inside Monet’s house of various pieces of his impressionist artwork" width="200" onclick="openModal('myModal1');currentSlide(2)">
                 <figcaption>Monet is iconically known for his impressionist paintings that now line the walls of every room in his house in Giverny, France.</figcaption>
             </figure>
             <figure class="column">
-                <img src="images/MonetsPond.jpeg" alt="A view onto the the Japanese Water Garden" width="200">
+                <img src="images/MonetsPond.jpeg" alt="A view onto the the Japanese Water Garden" width="200" onclick="openModal('myModal1');currentSlide(3)">
                 <figcaption>The Japanese Water Garden is one of two main areas within Monet’s Garden, known for its iconic water lilies.</figcaption>
             </figure>
             <figure class="column">
-                <img src="images/MonetsGardenArch.jpeg" alt="A head-on view of the arches down a path in the garden" width="200">
+                <img src="images/MonetsGardenArch.jpeg" alt="A head-on view of the arches down a path in the garden" width="200" onclick="openModal('myModal1');currentSlide(4)">
                 <figcaption>Monet’s Garden has many iconic structures within the Clos Normand</figcaption>
             </figure>
             <figure>
             <div class="column" id="flower"></div>
-                <img src="images/MonetsGardenFlower.jpg" alt="An up-close photo of a beautiful flower in Monet’s Garden" width="200">
+                <img src="images/MonetsGardenFlower.jpg" alt="An up-close photo of a beautiful flower in Monet’s Garden" width="200" onclick="openModal('myModal1');currentSlide(5)">
            	    <figcaption>Monet’s Garden is filled with unique, vibrant, and beautiful flowers and plants.</figcaption>
             </figure>
             </div>
             <!--Emily Libman-->        
         </div>
+        <div id="myModal1" class="modal">
+            <span class="close cursor" onclick="closeModal('myModal1')">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/GardenHouse.jpeg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/MonetsArt.jpeg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/MonetsPond.jpeg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/MonetsGardenArch.jpeg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/MonetsGardenFlower.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+
+
         <div class="yellowstone">
             <!--trav 2-->
             <h2>Yellowstone</h2>
@@ -76,12 +107,12 @@
             <h3>Photo Gallery</h3>
             <div class="image-grid">
             <figure>
-                <img src="images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine">
+                <img src="images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine" onclick="openModal('myModal2');currentSlide(6)">
                 <figcaption>Mammoth Hot Springs has a number of actively forming Travertine terraces.</figcaption>
             </figure>
 
             <figure>
-                <img src="images/yellowstone_sunset.jpg" width = "200" alt="Sunset over mountains with some charred trees in the foreground">
+                <img src="images/yellowstone_sunset.jpg" width = "200" alt="Sunset over mountains with some charred trees in the foreground" onclick="openModal('myModal2');currentSlide(7)">
                 <figcaption>The drive to Lamar Valley requires some dangerous roads.  But the result is amazing sunset views.</figcaption>
             </figure>
 
@@ -102,7 +133,7 @@
             </figure>
 
             <figure>
-                <img src="images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it.">
+                <img src="images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it." onclick="openModal('myModal2');currentSlide(10)">
                 
                 <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
             </figure>
@@ -110,6 +141,28 @@
 
             <!-- Colleen van Lent -->
         </div>
+        <div id="myModal2" class="modal">
+            <span class="close cursor" onclick="closeModal('myModal2')">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="images/yellowstone_travertine.JPG">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="images/yellowstone_sunset.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="images/yellowstone_sulphur_springs.JPG">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+
         <div class="Guangzhou">
             <!--trav 3-->
             <h2>Guangzhou, China</h2>
@@ -124,32 +177,63 @@
             <h3>Photo Gallery</h3>
             <div class="image-grid">
             <figure>
-                <img src="images/guangzhou_shangxiajiu_pedestrian_street.jpg" width = "200" alt="Image of pedestrian street full of glowing signs and stores.">
+                <img src="images/guangzhou_shangxiajiu_pedestrian_street.jpg" width = "200" alt="Image of pedestrian street full of glowing signs and stores." onclick="openModal('myModal3');currentSlide(11)">
                 <figcaption>Shangxiajiu pedestrian street in Guangzhou, a bustling street full of places to eat and shop!</figcaption>
             </figure>
 
             <figure>
-                <img src="images/guangzhou_opera_house.jpg" width = "200" alt="Waterside image of Guangzhou Opera House">
+                <img src="images/guangzhou_opera_house.jpg" width = "200" alt="Waterside image of Guangzhou Opera House" onclick="openModal('myModal3');currentSlide(12)">
                 <figcaption>Guangzhou Opera house on the shore of the Pearl River: Concerts, dances, and performance art happen year-round here.</figcaption>
             </figure>
 
             <figure>
-                <img src="images/guangzhou_pearlriver.jpg" width = "200" alt="Night time river view of glowing boat on the pearl river.">
+                <img src="images/guangzhou_pearlriver.jpg" width = "200" alt="Night time river view of glowing boat on the pearl river." onclick="openModal('myModal3');currentSlide(13)">
                 <figcaption>Pearl River offers night cruises, where tourists can enjoy the lights of the city at night as well as get a nice view of the Canton Tower.</figcaption>
             </figure>
 
             <figure>
-                <img src="images/guangzhou_liwanpark.jpg" width = "200" alt="Image of bridges in the Park">
+                <img src="images/guangzhou_liwanpark.jpg" width = "200" alt="Image of bridges in the Park" onclick="openModal('myModal3');currentSlide(14)">
                 <figcaption>Liwan Park has lots to offer. With Cantoneese Opera, theater, singing, acrobatics, etc. there is lots of Chinese history depicted. Take pictures and rent a paddleboat!</figcaption>
             </figure>
 
             <figure>
-                <img src="images/guangzhou_sunyatsen.jpg" width = "200" alt="Image of Memorial hall temple">
+                <img src="images/guangzhou_sunyatsen.jpg" width = "200" alt="Image of Memorial hall temple" onclick="openModal('myModal3');currentSlide(15)">
                 <figcaption>Built in the traditional Lingnan architectural style, the temple of Sun Yat-sen commemorates the life of Dr. Sun Yat-sen, a political theorist and leader of modern China. </figcaption>
             </figure>
             </div>
             <!-- Bianca Hiew -->
         </div>
+
+        <div id="myModal3" class="modal">
+            <span class="close cursor" onclick="closeModal('myModal3')">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/guangzhou_shangxiajiu_pedestrian_street.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/guangzhou_opera_house.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/guangzhou_pearlriver.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/guangzhou_liwanpark.jpg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/guangzhou_sunyatsen.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+
         <div class="sanfran">
             <!--trav 4-->
             <h2>San Francisco</h2>
@@ -164,29 +248,59 @@
             <h3>Photo Gallery</h3>
             <div class="image-grid">
             <figure>
-                <img src="images/San_Francisco_Alcatraz.jpeg" width = "200" alt="Image of the prison on the island">
+                <img src="images/San_Francisco_Alcatraz.jpeg" width = "200" alt="Image of the prison on the island" onclick="openModal('myModal4');currentSlide(16)">
                 <figcaption>Alcatraz Island</figcaption>
             </figure>
 
             <figure>
-                <img src="images/San_Francisco_Lombard.jpeg" width = "200" alt="Picture of Lombard street in San Francisco">
+                <img src="images/San_Francisco_Lombard.jpeg" width = "200" alt="Picture of Lombard street in San Francisco" onclick="openModal('myModal4');currentSlide(17)">
                 <figcaption>Lombard Street</figcaption>
             </figure>
 
             <figure>
-                <img src="images/San_Francisco_painted_ladies.jpeg" width = "200" alt="Painted Ladies, colorful homes known from full house.">
+                <img src="images/San_Francisco_painted_ladies.jpeg" width = "200" alt="Painted Ladies, colorful homes known from full house." onclick="openModal('myModal4');currentSlide(18)">
                 <figcaption>The Painted Ladies</figcaption>
             </figure>
 
             <figure>
-                <img src="images/San_Francisco_street.jpeg" width = "200" alt="Steep hill in San Francisco with cars on it.">
+                <img src="images/San_Francisco_street.jpeg" width = "200" alt="Steep hill in San Francisco with cars on it." onclick="openModal('myModal4');currentSlide(19)">
                 <figcaption>Hill in San Francisco</figcaption>
             </figure>
 
             <figure>
-                <img src="images/San_Francisco_palace.jpeg" width = "200" alt="Image of the Palace of Fine Arts in San Francisco. Image of a large building surrounded by water and a park.">
+                <img src="images/San_Francisco_palace.jpeg" width = "200" alt="Image of the Palace of Fine Arts in San Francisco. Image of a large building surrounded by water and a park." onclick="openModal('myModal4');currentSlide(20)">
                 <figcaption>The Palace of Fine Arts in San Francisco</figcaption>
             </figure>
+            </div>
+        </div>
+
+        <div id="myModal4" class="modal">
+            <span class="close cursor" onclick="closeModal('myModal4')">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/San_Francisco_Alcatraz.jpeg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/San_Francisco_Lombard.jpeg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/San_Francisco_painted_ladies.jpeg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/San_Francisco_street.jpeg">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/San_Francisco_palace.jpeg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
             </div>
         </div>
     </main>
@@ -211,5 +325,47 @@
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
 </script>
+<script>
+    // Open the Modal
+    function openModal(modalID) {
+      document.getElementById(modalID).style.display = "block";
+    }
+    
+    // Close the Modal
+    function closeModal(modalID) {
+      document.getElementById(modalID).style.display = "none";
+    }
+    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
 </body>
 </html>
