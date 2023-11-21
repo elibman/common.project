@@ -6,34 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0b0512c334.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    
     <title>Travel</title>
+    <link rel="icon" type="image/x-icon" href="images/travel.png">
 </head>
 <body>
     <div class="container">
     <a class = 'skip' href = "">Skip to Main Content</a>
-    <nav class="container-content">
-        <ul class="content">
-            <li class="title-link"><a class="current" href="index.html">Travel</a></li>
-            <li class="title-link"><a href="pets.html">Pets</a></li>
-            <li class="title-link"><a href="recipes.html">Recipes</a></li>
-        </ul>
-    </nav>
-    <header><h1>Travel</h1></header>
+
+    <header>
+        <nav class="container-content">
+            <ul class="content">
+                <li class="title-link"><a class="current" href="index.html">Travel</a></li>
+                <li class="title-link"><a href="pets.html">Pets</a></li>
+                <li class="title-link"><a href="recipes.html">Recipes</a></li>
+            </ul>
+        </nav>
+        <h1>Travel &nbsp;<i class="fa-solid fa-earth-americas"></i></h1>
+    </header>
+    
     </div>
     <main>
         <!--trav 1-->
         <div class="monet">
             <h2>Monet’s Garden</h2>
+            <div class="opener">
             <div class="column grid">
                 <img class="gif" id= "monetgif" src="images/monetgif.gif" alt="gif of Monet's garden" width="400">
                 <img src="images/MonetsGardenPond.jpeg" alt="image of pond in Monet's garden" width="400">
             </div>
-
+            
+            <div class="p-title">
             <h3> Geographical Location: Giverny, France </h3>
+            <div class="parag">
             <p class="p1">In the village of Giverny, France, Monet’s garden is a sanctuary that inspired the paintings of Claude Monet. Monet's garden helped him determine the subjects of his paintings, as he drew inspiration from the pond and surrounding flowers in his impressionist works. Common nature-related themes from Monet’s garden became a recurring motif throughout all of his works.</p> 
             <p class="p2">The garden is divided into the Clos Normand flower garden and the Japanese water garden. The Clos Normand consists of flowers arranged in a formal manner, while the Japanese water garden consists of lilies and a water bridge that inspired a lot of Monet’s water related works. </p>
+            </div>
+            </div>
+            </div>
             <!-- </div> -->
             
             <h3>Photo Gallery</h3>
@@ -96,13 +108,19 @@
         <div class="yellowstone">
             <!--trav 2-->
             <h2>Yellowstone</h2>
+            <div class="opener">
             <div class="column grid">
             <img class="gif" id="yellowstonegif" src="images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
             <img src="images/yellowstone_cauldron.jpg" width = "400" alt="Bubbling cauldron">
             </div>
+            <div class="p-title">
             <h3>Geographical Location: North America</h3>
+            <div class="parag">
             <p class="p1">Yellowstone is the first national park in the United States. It covers over 2.2 million acres, and provides an opportunity to see wildlife and explore geothermal areas.  In fact, Yellowstone contains about half the world's active geysers.</p>
-            <p class="p2">These unique opportunities also bring out a lot of bad decisions among the tourists.  Every year visitors injure themselves or the wildlife by getting close to the animals.  You  can see examples of people making bad decisions by visiting <a href ="https://www.facebook.com/groups/yellowstonenationalparkinvasionoftheidiots/">Yellowstone National Park: Invasion of the Idiots</a>, <a href="https://www.instagram.com/touronsofyellowstone/?hl=en">Tourons of Yellowstone</a>, or  <a href="https://cowboystatedaily.com/">Cowboy State Daily</a>.</p>
+            <p class="p2">These unique opportunities also bring out a lot of bad decisions among the tourists.  Every year visitors injure themselves or the wildlife by getting close to the animals </p>
+            </div>
+            </div>
+            </div>
 
             <h3>Photo Gallery</h3>
             <div class="image-grid">
@@ -133,7 +151,7 @@
             </figure>
 
             <figure>
-                <img src="images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it." onclick="openModal('myModal2');currentSlide(10)">
+                <img src="images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it." onclick="openModal('myModal2');currentSlide(8)">
                 
                 <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
             </figure>
@@ -145,15 +163,15 @@
             <span class="close cursor" onclick="closeModal('myModal2')">&times;</span>
             <div class="modal-content">
                 <div class="mySlides">
-                    <div class="numbertext">1 / 6</div>
+                    <div class="numbertext">1 / 5</div>
                     <img src="images/yellowstone_travertine.JPG">
                 </div>
                 <div class="mySlides">
-                    <div class="numbertext">2 / 6</div>
+                    <div class="numbertext">2 / 5</div>
                     <img src="images/yellowstone_sunset.jpg">
                 </div>
                 <div class="mySlides">
-                    <div class="numbertext">5 / 6</div>
+                    <div class="numbertext">5 / 5</div>
                     <img src="images/yellowstone_sulphur_springs.JPG">
                 </div>
 
@@ -166,38 +184,44 @@
         <div class="Guangzhou">
             <!--trav 3-->
             <h2>Guangzhou, China</h2>
+            <div class="opener">
             <div class="column grid">
             <img class="gif" id="guangtower" src="images/guangzhou_canton_tower.gif" width="400" alt="Canton Tower GIF">
             <img src="images/guangzhou_canton_tower.jpg" width = "400" alt="Canton Tower on waterside.">
             </div>
+            <div class="p-title">
             <h3>Geographical Location: Asia</h3>
+            <div class="parag">
             <p class="p1">Guangzhou is the capital and largest city of Guangdong province in southern China. Located on the Pearl River about 120 km (75 mi) north-northwest of Hong Kong and 145 km (90 mi) north of Macau, Guangzhou has a history of over 2,200 years and was a major terminus of the maritime Silk Roa it continues to serve as a major port and transportation hub as well as being one of China's three largest cities. </p>
             <p class="p2">Guangzhou is celebrated for its many handicraft products, including ivory carvings, jade objects, embroideries, fans, porcelain, and paper umbrellas. These, along with the citys famous cuisine and its many museums and other cultural attractions, have made Guangzhou one of China&#39;s principal tourist destinations.</p>
+            </div>
+            </div>
+            </div>
 
             <h3>Photo Gallery</h3>
             <div class="image-grid">
             <figure>
-                <img src="images/guangzhou_shangxiajiu_pedestrian_street.jpg" width = "200" alt="Image of pedestrian street full of glowing signs and stores." onclick="openModal('myModal3');currentSlide(11)">
+                <img src="images/guangzhou_shangxiajiu_pedestrian_street.jpg" width = "200" alt="Image of pedestrian street full of glowing signs and stores." onclick="openModal('myModal3');currentSlide(9)">
                 <figcaption>Shangxiajiu pedestrian street in Guangzhou, a bustling street full of places to eat and shop!</figcaption>
             </figure>
 
             <figure>
-                <img src="images/guangzhou_opera_house.jpg" width = "200" alt="Waterside image of Guangzhou Opera House" onclick="openModal('myModal3');currentSlide(12)">
+                <img src="images/guangzhou_opera_house.jpg" width = "200" alt="Waterside image of Guangzhou Opera House" onclick="openModal('myModal3');currentSlide(10)">
                 <figcaption>Guangzhou Opera house on the shore of the Pearl River: Concerts, dances, and performance art happen year-round here.</figcaption>
             </figure>
 
             <figure>
-                <img src="images/guangzhou_pearlriver.jpg" width = "200" alt="Night time river view of glowing boat on the pearl river." onclick="openModal('myModal3');currentSlide(13)">
+                <img src="images/guangzhou_pearlriver.jpg" width = "200" alt="Night time river view of glowing boat on the pearl river." onclick="openModal('myModal3');currentSlide(11)">
                 <figcaption>Pearl River offers night cruises, where tourists can enjoy the lights of the city at night as well as get a nice view of the Canton Tower.</figcaption>
             </figure>
 
             <figure>
-                <img src="images/guangzhou_liwanpark.jpg" width = "200" alt="Image of bridges in the Park" onclick="openModal('myModal3');currentSlide(14)">
+                <img src="images/guangzhou_liwanpark.jpg" width = "200" alt="Image of bridges in the Park" onclick="openModal('myModal3');currentSlide(12)">
                 <figcaption>Liwan Park has lots to offer. With Cantoneese Opera, theater, singing, acrobatics, etc. there is lots of Chinese history depicted. Take pictures and rent a paddleboat!</figcaption>
             </figure>
 
             <figure>
-                <img src="images/guangzhou_sunyatsen.jpg" width = "200" alt="Image of Memorial hall temple" onclick="openModal('myModal3');currentSlide(15)">
+                <img src="images/guangzhou_sunyatsen.jpg" width = "200" alt="Image of Memorial hall temple" onclick="openModal('myModal3');currentSlide(13)">
                 <figcaption>Built in the traditional Lingnan architectural style, the temple of Sun Yat-sen commemorates the life of Dr. Sun Yat-sen, a political theorist and leader of modern China. </figcaption>
             </figure>
             </div>
@@ -237,38 +261,44 @@
         <div class="sanfran">
             <!--trav 4-->
             <h2>San Francisco</h2>
+            <div class="opener">
             <div class="column grid">
             <img class="gif" id="sangif" src="images/San_Francisco_bridge.gif" width="400" alt="Gif of the Golden Gate Bridge">
             <img src="images/San_Francisco_bridge.jpeg" width = "400" alt="Image of Golden Gate Bridge">
             </div>
+            <div class="p-title">
             <h3>Geographical Location: North America</h3>
+            <div class="parag">
             <p class="p1">San Francisco is a great location to visit with many landmarks, including the Golden Gate Bridge and Alcatraz. Located in Northern California, San Francisco is one of the most populated cities in California with a population of 815,000. The city is also a center of culture and industry. San Francisco is home to a thriving tech industry.</p>
             <p class="p2">San Francisco has many trails and parks where you can hike or enjoy a walk. The Presidio is a large park with hiking trails and paths surrounding the Golden Gate Bridge area. One can see picturesque views of the bay and its wildlife.</p>
+            </div>
+            </div>
+            </div>
 
             <h3>Photo Gallery</h3>
             <div class="image-grid">
             <figure>
-                <img src="images/San_Francisco_Alcatraz.jpeg" width = "200" alt="Image of the prison on the island" onclick="openModal('myModal4');currentSlide(16)">
+                <img src="images/San_Francisco_Alcatraz.jpeg" width = "200" alt="Image of the prison on the island" onclick="openModal('myModal4');currentSlide(14)">
                 <figcaption>Alcatraz Island</figcaption>
             </figure>
 
             <figure>
-                <img src="images/San_Francisco_Lombard.jpeg" width = "200" alt="Picture of Lombard street in San Francisco" onclick="openModal('myModal4');currentSlide(17)">
+                <img src="images/San_Francisco_Lombard.jpeg" width = "200" alt="Picture of Lombard street in San Francisco" onclick="openModal('myModal4');currentSlide(15)">
                 <figcaption>Lombard Street</figcaption>
             </figure>
 
             <figure>
-                <img src="images/San_Francisco_painted_ladies.jpeg" width = "200" alt="Painted Ladies, colorful homes known from full house." onclick="openModal('myModal4');currentSlide(18)">
+                <img src="images/San_Francisco_painted_ladies.jpeg" width = "200" alt="Painted Ladies, colorful homes known from full house." onclick="openModal('myModal4');currentSlide(16)">
                 <figcaption>The Painted Ladies</figcaption>
             </figure>
 
             <figure>
-                <img src="images/San_Francisco_street.jpeg" width = "200" alt="Steep hill in San Francisco with cars on it." onclick="openModal('myModal4');currentSlide(19)">
+                <img src="images/San_Francisco_street.jpeg" width = "200" alt="Steep hill in San Francisco with cars on it." onclick="openModal('myModal4');currentSlide(17)">
                 <figcaption>Hill in San Francisco</figcaption>
             </figure>
 
             <figure>
-                <img src="images/San_Francisco_palace.jpeg" width = "200" alt="Image of the Palace of Fine Arts in San Francisco. Image of a large building surrounded by water and a park." onclick="openModal('myModal4');currentSlide(20)">
+                <img src="images/San_Francisco_palace.jpeg" width = "200" alt="Image of the Palace of Fine Arts in San Francisco. Image of a large building surrounded by water and a park." onclick="openModal('myModal4');currentSlide(18)">
                 <figcaption>The Palace of Fine Arts in San Francisco</figcaption>
             </figure>
             </div>
